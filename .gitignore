@@ -1,0 +1,32 @@
+# ============ NODE ============
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# ============ ENVIRONMENT ============
+.env
+.env.local
+.env.production
+
+# ============ UPLOADS ============
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ============ ML MODEL (too large for GitHub) ============
+ml-service/model/*.h5
+ml-service/model/urbansense_savedmodel/
+ml-service/venv/
+__pycache__/
+*.pyc
+
+# ============ BUILD ============
+frontend/build/
+frontend/node_modules/
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
